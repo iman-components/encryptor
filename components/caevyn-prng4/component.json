@@ -1,0 +1,16 @@
+{
+  "name": "prng4",
+  "repo": "caevyn/prng4",
+  "description": "Tom Wu's prng4 library wrapped up in a component",
+  "version": "1.0.0",
+  "keywords": [
+    "prng4"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "BSD",
+  "main": "prng4.js",
+  "scripts": [
+    "prng4.js"
+  ]
+}

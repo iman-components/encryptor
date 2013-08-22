@@ -1,0 +1,16 @@
+{
+  "name": "jsbn",
+  "repo": "caevyn/jsbn",
+  "description": "Tom Wu's jsbn library wrapped up in a component",
+  "version": "1.0.0",
+  "keywords": [
+    "jsbn big integer"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "BSD",
+  "main": "jsbn.js",
+  "scripts": [
+    "jsbn.js"
+  ]
+}

@@ -4,7 +4,10 @@
   "description": "Encrypt a credit card number. Takes a modulus and public key and returns a token",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "caevyn/base64": "*",
+    "caevyn/rsa": "*"
+    },
   "development": {},
   "license": "MIT",
   "main": "index.js",

@@ -1,0 +1,19 @@
+{
+  "name": "rsa",
+  "repo": "caevyn/rsa",
+  "description": "Tom Wu's rsa library wrapped up in a component",
+  "version": "1.0.0",
+  "keywords": [
+    "rsa"
+  ],
+  "dependencies": {
+    "caevyn/rng": "*",
+    "caevyn/jsbn": "*"
+  },
+  "development": {},
+  "license": "BSD",
+  "main": "rsa.js",
+  "scripts": [
+    "rsa.js"
+  ]
+}
