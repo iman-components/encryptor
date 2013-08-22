@@ -3,7 +3,7 @@
 
   Encrypt a credit card number.  
 
-  Returns a encrypted token.
+  Returns an encrypted token.
 
 ## Installation
 
