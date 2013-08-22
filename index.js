@@ -4,7 +4,7 @@
  */
 
 var base64 = require('base64');
-var rsa = require('rsa');
+var RSAKey = require('rsa');
 
 /**
  * Set the 'modulus' and 'exponent' parameters
@@ -28,7 +28,7 @@ function Encryptor(modulus, exponent) {
 
 Encryptor.prototype.encrypt = function(val) {
   var rsa = new RSAKey();
-  rsa.setPublic(b64.b64tohex(this.modulus), b64.b64tohex(this.exponent));
+  rsa.setPublic(base64.b64tohex(this.modulus), base64.b64tohex(this.exponent));
   return rsa.encrypt(val);
 };
 
