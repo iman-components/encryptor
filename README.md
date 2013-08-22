@@ -1,7 +1,9 @@
 
 # encryptor
 
-  Encrypt a credit card number. Takes a modulus and public key and returns a token
+  Encrypt a credit card number.  
+
+  Returns a encrypted token.
 
 ## Installation
 
