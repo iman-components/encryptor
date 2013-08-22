@@ -15,7 +15,7 @@
 	// create a new Encryptor passing in modulus and exponent parameters
 	var encryptor = new Encryptor(modulus, exponent);
 
-	// call encrypt method
+	// call encrypt method on a creditcard number
 	encryptor.encrypt(number);
 
 ## License
