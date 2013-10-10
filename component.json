@@ -2,7 +2,7 @@
   "name": "encryptor",
   "repo": "iman-components/encryptor",
   "description": "Encrypt a credit card number. Takes a modulus and public key and returns a token",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "caevyn/base64": "*",

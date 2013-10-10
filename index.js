@@ -29,7 +29,8 @@ function Encryptor(modulus, exponent) {
 Encryptor.prototype.encrypt = function(val) {
   var rsa = new RSAKey();
   rsa.setPublic(base64.b64tohex(this.modulus), base64.b64tohex(this.exponent));
-  return rsa.encrypt(val);
+  var value = rsa.encrypt(val);
+  return base64.hex2b64(value);
 };
 
 module.exports = Encryptor;
